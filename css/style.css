@@ -8,8 +8,140 @@ html {
     font-size: 62.5%;
     font-family: DM Sans;
 }
-.attribution { 
-    font-size: 11px; text-align: center;
+.container {
+    width: 100%;
+    height: 100vh;
+    padding: 5rem;
+    background-color: hsl(27, 66%, 92%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.appHeader {
+    width: 400px;
+    height: 100px;
+    padding: 2rem;
+    background-color: hsl(10, 79%, 65%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 2rem;
+}
+.appHeaderTitle {
+    width: 30%;
+    color: hsl(27, 66%, 92%);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+.appBody {
+    width: 400px;
+    height: 500px;
+    padding: 2.5rem;
+    background-color: hsl(33, 100%, 98%);
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.appBodyTitle h1 {
+    color: hsl(25, 47%, 15%);
+}
+.appDays {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.dayOfWeek {
+    width: 40px;
+    color: hsl(28, 10%, 53%);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+}
+.monContainer {
+    height: 40px;
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+.tueContainer {
+    height: 80px;
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+.wedContainer {
+    height: 120px;
+    background-color: hsl(186, 34%, 60%);
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+.thuContainer {
+    height: 70px;
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+.friContainer {
+    height: 50px;
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+.satContainer {
+    height: 100px;
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+.sundayContainer {
+    height: 60px;
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+.line {
+    width: 100%;
+    border-bottom: 1px solid hsl(27, 66%, 92%);
+}
+.total {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.total p {
+    font-size: 1.2rem;
+    color: hsl(28, 10%, 53%);
+}
+.totalMonth h1 {
+    font-size: 3rem;
+    color: hsl(25, 47%, 15%);
+}
+.totalMonth {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.lastMonth {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.lastMonth h6 {
+    font-size: 1.6rem;
+    color: hsl(25, 47%, 15%);
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
 }
 .attribution a {
     color: hsl(228, 45%, 44%);

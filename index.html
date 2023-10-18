@@ -8,29 +8,66 @@
   <title>Frontend Mentor | Expenses chart component</title>
 </head>
 <body>
-
-  My balance
-  $921.48
-
-  Spending - Last 7 days
-
-  mon
-  tue
-  wed
-  thu
-  fri
-  sat
-  sun
-
-  Total this month
-  $478.33
-
-  +2.4%
-  from last month
-  
+  <div class="container">
+    <div class="appHeader">
+      <div class="appHeaderTitle">
+        <p>My balance</p>
+        <h1>$921.48</h1>
+      </div>
+      <div class="appHeaderLogo">
+        <img src="./images/logo.svg" alt="logo">
+      </div>
+    </div>
+    <div class="appBody">
+      <div class="appBodyTitle">
+        <h1>Spending - Last 7 days</h1>
+      </div>
+      <div class="appDays">
+        <div class="dayOfWeek">
+          <div class="monContainer"></div>
+          <p>mon</p>
+        </div>
+        <div class="dayOfWeek">
+          <div class="tueContainer"></div>
+          <p>tue</p>
+        </div>
+        <div class="dayOfWeek">
+          <div class="wedContainer"></div>
+          <p>wed</p>
+        </div>
+        <div class="dayOfWeek">
+          <div class="thuContainer"></div>
+          <p>thu</p>
+        </div>
+        <div class="dayOfWeek">
+          <div class="friContainer"></div>
+          <p>fri</p>
+        </div>
+        <div class="dayOfWeek">
+          <div class="satContainer"></div>
+          <p>sat</p>
+        </div>
+        <div class="dayOfWeek">
+          <div class="sundayContainer"></div>
+          <p>sun</p>
+        </div>
+      </div>
+      <div class="line"></div>
+      <div class="total">
+        <div class="totalMonth">
+          <p>Total this month</p>
+          <h1>$478.33</h1>
+        </div>
+        <div class="lastMonth">
+          <h6>+2.4%</h6>
+          <p>from last month</p>
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://www.frontendmentor.io/profile/wagnermm" target="blank">Wagner Miranda</a>.
   </div>
 
   <script src="./js/script.js"></script>
